@@ -1,6 +1,28 @@
-Crie uma classe de sua preferência com, no mínimo, uma variável, um método e um incremento. 
-Depois, desenvolva três ou mais objetos para testar o código.
+#Crie uma classe de sua preferência com, no mínimo, uma variável, um método e um incremento. 
+#Depois, desenvolva três ou mais objetos para testar o código.
 
-Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e 
-compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.
+#Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e 
+#compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.
 
+class CadastroYouTube:
+    cont = 0
+    def __init__(self, nome, email, plano) ->None:
+        self.nome = nome
+        self.email = email
+        self.plano = plano
+        CadastroYouTube.cont += 1
+    def processa_dados(self) -> Métodos:
+        print('======DADOS CONTA======')
+        print(f'Usuário: {self.nome}')
+        print(f'E-mail: {self.email}')
+        print(f'Plano: {self.plano}\n')
+            
+cadastro1 = CadastroYouTube('João', 'joaodasilva@gmail.com', 'FREE')
+cadastro2 = CadastroYouTube('Maria Clara', 'mariaclara@gmail.com', 'PREMIUM')
+cadastro3 = CadastroYouTube('Jose Raimundo', 'joseraimundo@gmail.com', 'PREMIUM')
+
+cadastro1.processa_dados()
+cadastro.processa_dados()
+cadastro.processa_dados()
+
+print(f'Número de cadastros no YouTube: {CadastroYouTube.cont}')
