@@ -11,9 +11,9 @@ class CadastroYouTube:
         self.email = email
         self.plano = plano
         CadastroYouTube.cont += 1
-    def processa_dados(self) -> Métodos:
-        print('======DADOS CONTA======')
-        print(f'Usuário: {self.nome}')
+    def processa_dados(self) -> None:
+        print('======DADOS DO CADASTRO======')
+        print(f'Usuário(a): {self.nome}')
         print(f'E-mail: {self.email}')
         print(f'Plano: {self.plano}\n')
             
@@ -22,7 +22,7 @@ cadastro2 = CadastroYouTube('Maria Clara', 'mariaclara@gmail.com', 'PREMIUM')
 cadastro3 = CadastroYouTube('Jose Raimundo', 'joseraimundo@gmail.com', 'PREMIUM')
 
 cadastro1.processa_dados()
-cadastro.processa_dados()
-cadastro.processa_dados()
+cadastro2.processa_dados()
+cadastro3.processa_dados()
 
 print(f'Número de cadastros no YouTube: {CadastroYouTube.cont}')
