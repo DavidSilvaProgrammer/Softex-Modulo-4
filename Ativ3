@@ -1,4 +1,25 @@
 #Crie uma classe e insira nela, no mínimo, dois atributos, os quais devem ter um método acessor (get)
-e um método modificador (set) para cada. Defina um objeto para cada atributo e elabore um construtor 
-para criar alguma regra. #A atividade pode ser realizada em qualquer linguagem de programação ou apenas 
-utilizando algoritmos.
+#e um método modificador (set) para cada. Defina um objeto para cada atributo e elabore um construtor 
+#para criar alguma regra. #A atividade pode ser realizada em qualquer linguagem de programação ou apenas 
+#utilizando algoritmos.
+
+class Livro:
+    def __init__ (self, autor, titulo) -> None:
+        self.__autor = autor
+        self.__titulo = titulo
+    def get_autor(self) -> str:
+        return self.__autor
+    def set_autor(self, novo_autor) -> None:
+        self.__autor = novo_autor
+    def get_titulo(self) -> str:
+        return self.__titulo
+    def set_titulo(self, novo_titulo) -> None:
+        self.__titulo = novo_titulo
+
+livro1 = Livro('Andy Weir', 'Perdido em Marte')
+print(f'Autor do livro inicial: {livro1.get_autor()}')
+livro1.set_autor('Douglas Adams')
+print(f'Autor alterado: {livro1.get_autor()}')
+print(f'Titulo inicial: {livro1.get_titulo()}')
+livro1.set_titulo('O guia do mochileiro das galáxias')
+print(f'Titulo alterado: {livro1.get_titulo()}')
