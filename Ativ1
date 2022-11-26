@@ -1,1 +1,48 @@
-Softex
+Classifique dois objetos materiais e dois abstratos. Insira, no mínimo, três métodos e três atributos para cada.
+
+Materiais
+
+Avião
+Atributos
+•     Airline
+•     Modelo
+•     Cor
+Métodos
+•     Decolar
+•     Acelerar
+•     Aterrisar
+
+
+Gato
+Atributos
+•     Raça
+•     Tamanho
+•     Nome
+Métodos
+•     Correr
+•     Pular
+•     Miar
+
+
+Abstratos
+
+Sistema operacional
+Atributos
+•     Antivirus
+•     Navegador
+•     Bloco de notas
+Métodos
+•     Ligar
+•     Gerenciar
+•     Desligar
+ 
+Estilo de vida
+Atributos
+•     Hobby
+•     Ocupação
+•     Filosofia de vida
+Métodos
+•     Divertir-se
+•     Estudar
+•     Trabalhar
+ 
