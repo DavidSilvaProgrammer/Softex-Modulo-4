@@ -1,0 +1,5 @@
+frase_inicial = input("Favor digitar uma frase: ")
+palavra_antiga = input("Informe a palavra que vai ser substituida: ")
+palavra_nova = input("Informe a nova palavra: ")
+frase_final = frase_inicial.replace(palavra_antiga, palavra_nova)
+print(f"Frase final: {frase_final}")
