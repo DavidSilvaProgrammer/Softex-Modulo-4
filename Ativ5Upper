@@ -1,0 +1,3 @@
+frase_inicial = input("Favor digitar uma frase: ")
+frase_final = frase_inicial.upper()
+print(f"Sua frase foi alterada para letras maiusculas: {frase_final}")
