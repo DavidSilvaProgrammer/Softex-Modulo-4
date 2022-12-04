@@ -1,0 +1,7 @@
+frase = input("Favor digitar uma frase: ")
+palavra = input("Digite novamente uma das palavras utilizadas: ")
+contagem = frase.count(palavra)
+if contagem == 1:
+    print(f"A palavra {palavra} é utilizada {contagem} vez na frase")
+else:
+    print(f"A palavra {palavra} é utilizada {contagem} vezes na frase")
