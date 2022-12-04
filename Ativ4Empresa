@@ -1,0 +1,17 @@
+import RH.Funcionario;
+import deposito.Mercadoria;
+
+public class Empresa {
+
+    public static void main(String[] args) {
+        Funcionario funcionario1 = new Funcionario();
+        Funcionario1.setNome("Maria");
+        Funcionario.setCpf("87897897986");
+        
+        Mercadoria mercadoria1 = new Mercadoria();
+        mercadoria1.setNome("Cadeira");
+        mercadoria1.setCodigo("5566");
+        mercadoria1.setQuantidade(15);
+    }
+    
+}
