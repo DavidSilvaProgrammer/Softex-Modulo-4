@@ -1,0 +1,16 @@
+
+class HelloWorld {
+    public static void main(String[] args) {
+        try{
+            int[] vetor= new int[4];
+            
+            vetor[4]=1;
+            
+            System.out.println("Esse texto nao sera impresso, somente seria impresso se nao ocorresse a exceccao.");
+        } catch(ArrayIndexOutOfBoundsException exception){
+            System.out.println("Excecao ao acessar um indice do vetor que nao existe");
+        }
+        
+        System.out.println("\nTermino do programa.");
+    }
+}
