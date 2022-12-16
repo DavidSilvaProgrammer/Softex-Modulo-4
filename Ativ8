@@ -1,0 +1,14 @@
+//Escolha e descreva um padrão de projetos.
+
+//Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e 
+compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo. 
+
+//Escolhendo um padrão de projeto para explicar. Escolhido: Decorator.
+
+O padrão de projeto Decorator tem a função de adicionar comportamentos a um objeto e fazer uso deles sem o risco de comprometer o 
+código fonte. Esse padrão de projeto apresenta-se como uma alternativa a criação de subclasses baseadas no conceito de herança, 
+visto que tem aplicação semelhante, mas se diferencia principalmente devido a sua flexibilidade em alterar atributos e métodos. 
+
+O Decorator usa como base o encapsulamento dele e do objeto principal dentro de uma interface que utiliza composição 
+recursiva com o intuito de tornar mais dinâmica a implantação de mais decoradores e suas especificidades, desse jeito é 
+possível incrementar o objeto de maneira dinámica e sem necessidade de gerar atributos e métodos estáticos.
